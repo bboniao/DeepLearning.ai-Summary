@@ -156,7 +156,7 @@ Here are the course summary as its given on the course [link](https://www.course
 - To explain the last function lets see:
   - if `y = 1` ==> `L(y',1) = -log(y')`  ==> we want `y'` to be the largest   ==> `y`' biggest value is 1
   - if `y = 0` ==> `L(y',0) = -log(1-y')` ==> we want `1-y'` to be the largest ==> `y'` to be smaller as possible because it can only has 1 value.
-- Then the Cost function will be: `J(w,b) = (1/m) * Sum(L(y'[i],y[i]))`
+- Then the Cost function will be: ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `J(w,b) = (1/m) * Sum(L(y'[i],y[i]))`
 - The loss function computes the error for a single training example; the cost function is the average of the loss functions of the entire training set.
 
 ### Gradient Descent
