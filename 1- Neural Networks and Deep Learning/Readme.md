@@ -150,7 +150,7 @@ Here are the course summary as its given on the course [link](https://www.course
 
 ### Logistic regression cost function
 
-- First loss function would be the square root error:  - L(y',y) = 1/2 (y' - y)^2
+- First loss function would be the square root error: ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `L(y',y) = 1/2 (y' - y)^2`
   - But we won't use this notation because it leads us to optimization problem which is non convex, means it contains local optimum points.
 - This is the function that we will use: `L(y',y) = - (y*log(y') + (1-y)*log(1-y'))`
 - To explain the last function lets see:
