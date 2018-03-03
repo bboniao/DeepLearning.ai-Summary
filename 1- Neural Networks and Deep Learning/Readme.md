@@ -230,8 +230,7 @@ Here are the course summary as its given on the course [link](https://www.course
 - So we have:
   - ![](Images/09.png)
 
-- Then from right to left we will calculate derivations compared to the result:
-    	![#f03c15](https://placehold.it/15/f03c15/000000?text=+) 
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Then from right to left we will calculate derivations compared to the result: 
   ```
     d(a)  = d(l)/d(a) = -(y/a) + ((1-y)/(1-a))
   	d(z)  = d(l)/d(z) = a - y
