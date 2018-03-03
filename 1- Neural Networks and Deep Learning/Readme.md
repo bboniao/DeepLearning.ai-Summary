@@ -165,15 +165,15 @@ Here are the course summary as its given on the course [link](https://www.course
 - Our cost function is convex.
 - First we initialize `w` and `b` to 0,0 or initialize them to a random value in the convex function and then try to improve the values the reach minimum value.
 - In Logistic regression people always use 0,0 instead of random.
-- The gradient decent algorithm repeats: ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `w = w - alpha * dw`
+- The gradient decent algorithm repeats: `w = w - alpha * dw`
   where alpha is the learning rate and `dw` is the derivative of `w` (Change to `w`) 
   The derivative is also the slope of `w`
 - Looks like greedy algorithms. the derivative give us the direction to improve our parameters.
 
 
 - The actual equations we will implement:
-  - `w = w - alpha * d(J(w,b) / dw)`        (how much the function slopes in the w direction)
-  - `b = b - alpha * d(J(w,b) / db)`        (how much the function slopes in the d direction)
+  - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)  `w = w - alpha * d(J(w,b) / dw)`        (how much the function slopes in the w direction)
+  - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)  `b = b - alpha * d(J(w,b) / db)`        (how much the function slopes in the d direction)
 
 ### Derivatives
 
