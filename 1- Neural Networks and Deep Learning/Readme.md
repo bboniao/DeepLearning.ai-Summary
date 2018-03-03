@@ -232,8 +232,8 @@ Here are the course summary as its given on the course [link](https://www.course
 
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Then from right to left we will calculate derivations compared to the result: 
   ```
-    d(a)  = d(l)/d(a) = -(y/a) + ((1-y)/(1-a))
-    d(z)  = d(l)/d(z) = a - y
+  	d(a)  = d(l)/d(a) = -(y/a) + ((1-y)/(1-a))
+  	d(z)  = d(l)/d(z) = a - y
   	d(W1) = X1 * d(z)
   	d(W2) = X2 * d(z)
   	d(B) = d(z)
